@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import openai
 from datetime import datetime
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -9,7 +10,7 @@ load_dotenv()
 # EXTRACT - ETL
 
 sdw2023_csv_path = '../projetoETL/resources/users.csv'
-openai_api_key = OPENAI_API_KEY
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 df = pd.read_csv(sdw2023_csv_path)
 user_ids = df['id'].tolist()
