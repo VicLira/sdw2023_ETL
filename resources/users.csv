@@ -1,0 +1,6 @@
+﻿id,name,account_id,account_number,account_agency,account_balance,account_limit,card_id,card_number,card_limit,appliance_name,appliance_power_watts,appliance_hours_used_daily,electric_company,news_id,news_icon,news_description
+1,Alice,101,00002-5,3,1500.0,1000.0,101,**** **** **** 2222,2000.0,TV,100,5,EnergiaCorp,1,https://example.com/icon1.svg,Olá. Alice! Economize energia usando lâmpadas LED de baixo consumo.
+2,Bob,102,00003-7,2,750.0,800.0,102,**** **** **** 3333,1500.0,Computador,200,6,EnergiaEco,2,https://example.com/icon2.svg,Olá. Bob! Aproveite a luz natural para economizar energia durante o dia.
+3,Carol,103,00004-9,4,3000.0,2000.0,103,**** **** **** 4444,2500.0,Laptop,60,8,EnergiaVerde,3,https://example.com/icon3.svg,Olá. Carol! Desligar os aparelhos em stand by economiza energia.
+4,Pyterson,7,00001-1,1,0.0,500.0,4,**** **** **** 1111,1000.0,Geladeira,150,8,Enel,9,https://example.com/icon4.svg,Pyterson. invista hoje para garantir um futuro seguro e próspero. Seu futuro agradece!
+5,Daniel,8,00001-2,1,200.0,1000.0,5,**** **** **** 5555,800.0,Ar Condicionado,1200,4,Enel,10,https://example.com/icon5.svg,Daniel. economize energia ajustando a temperatura do ar condicionado.
