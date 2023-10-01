@@ -8,8 +8,8 @@ load_dotenv()
 
 # EXTRACT - ETL
 
-sdw2023_csv_path = '../../projetoETL/resources/users.csv'
-openai_api_key = load_dotenv.OPENAI_API_KEY
+sdw2023_csv_path = '../projetoETL/resources/users.csv'
+openai_api_key = OPENAI_API_KEY
 
 df = pd.read_csv(sdw2023_csv_path)
 user_ids = df['id'].tolist()
